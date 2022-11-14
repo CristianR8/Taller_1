@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datos Usuario</title>
+</head>
+<body>
+    <h3>Rellena tu CV</h3>
+    
+    <label>Nombre</label> <br>
+    <input type="text" id="nombre" placeholder="Ingrese aqui su nombre"> <br>
+
+    <label>Apellido</label> <br>
+    <input type="text" id="apellido" placeholder="Ingrese aqui su apellido"> <br>
+
+    <label>Contraseña</label> <br>
+    <input type="text" id="contraseña" placeholder="Ingrese aqui su contraseña"> <br>
+
+    <br>
+    <label>Confirme contraseña</label> <br>
+    <input type="text" id="contraseña" placeholder="Ingresela nuevamente"> <br>
+
+    <label>Identificacion</label> <br>
+    <select name="identificacion" id="identificacion">
+        <option value="CC">CC</option>
+        <option value="TI">TI</option>
+        <option value="CE">CE</option>
+    </select> <input type="text" id="identificacion" placeholder="Ingrese aqui el numero"> <br>
+
+    <label>Sexo</label> <br>
+    <input type="radio" name="sexo" id="Hombre"> Hombre<br>
+    <input type="radio" name="sexo" id="Mujer"> Mujer <br>
+
+    <br>
+    <label>Incluir mi foto</label> <br>
+    <input type="file" name="foto" id="foto"> <br>
+
+    <br>
+    <input type="checkbox"> Estudiante....
+
+    <br><br>
+    <div style="border: 1px solid gray;">
+        Datos personales
+        <br><br>
+        <label>Departamento</label> <br>
+        <select name="departamento" id="departamento">
+            <option value="default">-selecciona-</option>
+            <option value="Antioquia">Antioquia</option>
+            <option value="Atlantico">Atlantico</option>
+            <option value="Bogota">Bogota</option>
+            <option value="Bolivar">Bolivar</option>
+            <option value="Boyaca">Boyaca</option>
+            <option value="Caldas">Caldas</option>
+            <option value="Caqueta">Caqueta</option>
+            <option value="Casanare">Casanare</option>
+            <option value="Cauca">Cauca</option>
+            <option value="Cesar">Cesar</option>
+            <option value="Choco">Choco</option>
+            <option value="Cordoba">Cordoba</option>
+            <option value="Cundinamarca">Cundinamarca</option>
+            <option value="Guainia">Guainia</option>
+            <option value="Guaviare">Guaviare</option>
+            <option value="Huila">Huila</option>
+            <option value="La Guajira">La Guajira</option>
+            <option value="Magdalena">Magdalena</option>
+            <option value="Meta">Meta</option>
+            <option value="Narino">Narino</option>
+            <option value="Norte de Santander">Norte de Santander</option>
+            <option value="Putumayo">Putumayo</option>
+            <option value="Quindio">Quindio</option>
+            <option value="Risaralda">Risaralda</option>
+            <option value="San Andres y Providencia">San Andres y Providencia</option>
+            <option value="Santander">Santander</option>
+            <option value="Sucre">Sucre</option>
+            <option value="Tolima">Tolima</option>
+            <option value="Valle del Cauca">Valle del Cauca</option>
+            <option value="Vaupes">Vaupes</option>
+            <option value="Vichada">Vichada</option>
+        </select> <br> <br>
+
+        <label>Fecha de nacimiento</label> <br>
+        <input type="text" placeholder="Dia"> 
+        de <select name="mes" id="mes">
+            <option value="Enero">Enero</option>
+            <option value="Febrero">Febrero</option>
+            <option value="Marzo">Marzo</option>
+            <option value="Abril">Abril</option>
+            <option value="Mayo">Mayo</option>
+            <option value="Junio">Junio</option>
+            <option value="Julio">Julio</option>
+            <option value="Agosto">Agosto</option>
+            <option value="Septiembre">Septiembre</option>
+            <option value="Octubre">Octubre</option>
+            <option value="Noviembre">Noviembre</option>
+            <option value="Diciembre">Diciembre</option>
+        </select> 
+        de <input type="text" placeholder="Año"> <br> <br>
+
+        <label>Temas de interés</label> <br>
+        <textarea cols="30" rows="5" style="overflow:scroll"></textarea>
+    </div>
+
+    <br>
+    <input type="submit" value="Guardar cambios">
+    <input type="reset" value="Borrar los datos introducidos">
+    
+</body>
+</html>
